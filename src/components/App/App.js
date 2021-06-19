@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar';
-import StatementPage from '../pages/StatementPage';
+import StatementPage from '../../pages/StatementPage';
 import './App.css';
 
 function App() {
