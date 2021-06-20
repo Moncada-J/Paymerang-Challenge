@@ -16,7 +16,7 @@ function App() {
         <Redirect to="/statements" />
       </Switch>
     </main>
-  );
+  )
 }
 
 export default App;

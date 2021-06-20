@@ -1,19 +1,19 @@
 
  [{
       "Payee": {
-      "Name": "BLEENDOT",
-      "Fax": "(942) 424-2678",
-      "Phone": "(980) 494-2960",
-      "Address": {
-        "Address1": "551 Hoyt Street",
-        "Address2": "",
-        "City": "Rivera",
-        "StateOrProvince": "Ohio",
-        "Country": "US",
-        "PostalCode": 40529
-      },
-      "Attention": "Mcdaniel Blankenship",
-      "SubmissionDate": "2017-02-06"
+        "Name": "BLEENDOT",
+        "Fax": "(942) 424-2678",
+        "Phone": "(980) 494-2960",
+        "Address": {
+              "Address1": "551 Hoyt Street",
+              "Address2": "",
+              "City": "Rivera",
+              "StateOrProvince": "Ohio",
+              "Country": "US",
+              "PostalCode": 40529
+          },
+        "Attention": "Mcdaniel Blankenship",
+        "SubmissionDate": "2017-02-06"
     },
     "Payment": {
       "PAN": 1313027774141142,
