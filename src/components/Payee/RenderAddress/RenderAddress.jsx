@@ -2,7 +2,7 @@ import React from 'react';
 import statements from '../../../sample.json';
 
 export default function RenderAddress({statement}) {
- // this component adds the full address per payor
+ // this component adds the full address per payee
  // (i created a second component to keep it clean!)
     return (
         <>
