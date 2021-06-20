@@ -6,8 +6,8 @@ export default function RenderAddress({statement}) {
  // (i created a second component to keep it clean!)
     return (
         <>
-            <h4>Address</h4>
-            <p>
+            <h4 className="card-str address-title">Address:</h4>
+            <p className="address-body">
             {statement.Payee.Address.Address1}
             {statement.Payee.Address.Address2} 
             <br />

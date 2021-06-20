@@ -1,0 +1,29 @@
+
+.card-title {
+    font-size: 5vmin;
+    margin-left: 10px;
+}
+.payee-body, .address-body {
+    font-size: 2vmin;
+    color: #494f52;
+    margin-top: 5px;
+}
+.card-str {
+    color: #8A3E93;
+    margin-top: 3px;
+}
+.address-title {
+    font-size: 2.5vmin !important;
+}
+.payee-btn {
+    margin-right: 30px;
+}
+
+.employee-btn {
+    margin-left: 30px;
+}
+
+.employee-body {
+    margin-right: 20px;
+}
+

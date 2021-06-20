@@ -4,7 +4,7 @@
 }
 
 .logo {
-    width: 250px;
+    width: 200px;
     align-items: middle;
     margin-left: 40px;
     margin-right: 40px;
@@ -24,8 +24,24 @@
 .nav-link {
     color: #4f494b !important;
     margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.secondary-link {
+    padding-top: 15px;
 }
 
 .navStr {
-    color: #84348D;
+    color: #84348D !important;
+}
+
+.navSubtitle {
+    color: #4C7287 !important;
+    font-size: 18px;
+}
+
+.dashboard-icon {
+    font-size: 31px !important;
+    margin-right: 10px;
+    color: rgb(186, 65, 138);
 }
