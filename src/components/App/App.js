@@ -8,6 +8,8 @@ function App() {
   return (
     <main className="App">
       <Navbar />
+      <h1 className="title">Unleash the Power of 
+      <br /> Electronic Payments</h1>
       <hr />
       <Switch>
         <Route exact path="/statements">

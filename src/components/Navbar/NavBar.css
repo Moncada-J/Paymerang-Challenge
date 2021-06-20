@@ -8,7 +8,6 @@
     align-items: middle;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 10px;
 }
 
 .toggle {
@@ -24,8 +23,7 @@
 
 .nav-link {
     color: #4f494b !important;
-    margin-right: 30px;
-    margin-top: 5px;
+    margin: 0 auto;
 }
 
 .navStr {
