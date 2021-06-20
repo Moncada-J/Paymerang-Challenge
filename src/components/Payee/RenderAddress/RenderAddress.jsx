@@ -1,5 +1,5 @@
 import React from 'react';
-import statements from '../../../sample.json';
+// import statements from '../../../sample.json';
 
 export default function RenderAddress({statement}) {
  // this component adds the full address per payee
