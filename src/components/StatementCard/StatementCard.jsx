@@ -8,44 +8,44 @@ export default function StatementCard ({statement}) {
     return (
         // this component holds all keys mapped out *not pun intended*, 
         // and design structure for the /statements route - shown on app.js
-        <main className="statement-card">
-            {/*
-             !!! Payee Info !!!
-              */}
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{statement.Payee.Name}</h5>
-                    <button
-                    class="btn btn-primary payee-btn"
-                    type="button"
-                    data-mdb-toggle="collapse"
-                    data-mdb-target="#multiCollapseExample1"
-                    aria-expanded="false"
-                    aria-controls="multiCollapseExample1"
-                    >
-                    Payee Details
-                    </button>
-                    <button
-                    class="btn btn-primary"
-                    type="button"
-                    data-mdb-toggle="collapse"
-                    data-mdb-target="#multiCollapseExample2"
-                    aria-expanded="false"
-                    aria-controls="multiCollapseExample2"
-                    >
-                    Employee Details
-                    </button>
-                    <button
-                    class="btn btn-primary employee-btn"
-                    type="button"
-                    data-mdb-toggle="collapse"
-                    data-mdb-target=".multi-collapse"
-                    aria-expanded="false"
-                    aria-controls="multiCollapseExample1 multiCollapseExample2"
-                    >
-                    Show All 
-                    </button>
-                    {/* <!-- Collapsed content --> */}
+    <main className="statement-card">
+        <table className="data-table">
+            <thead>
+                <tr>
+                    <th>Payee</th>
+                    <th>Date</th>
+                    <th>Attention</th>
+                     <th>Status</th> {/*  custom feature  */}
+                    <th>Payment</th>
+                    <th>Remittances</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{statement.Payee.Name}</td>
+                    <td>{statement.Payee.SubmissionDate}</td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {/* 
+                    {/* <!-- Collapsed content --> 
                     <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse mt-3 payee-body" id="multiCollapseExample1">
@@ -69,7 +69,7 @@ export default function StatementCard ({statement}) {
                 <hr />
             {/* 
             !!! Payment Info !!!
-            */}
+       
            <div className="payment-container">
                 <h3>Payment Details</h3>
                 <h5> Account Number: {statement.Payment.PAN} 
@@ -84,16 +84,13 @@ export default function StatementCard ({statement}) {
                 <h3>Remittance Details</h3>
                 <RenderRemittances remittance={statement.Remittance} />
             </div>
-
-
-
                     <p class="card-text">
                     {/* Some quick example text to build on the card title and make up the bulk of the
-                    card's content. */}
+                    card's content. 
                     </p>
                     <button type="button" class="btn btn-primary">Button</button>
                 </div>
-            </div>
+            </div> */}
         </main>
     );
 }

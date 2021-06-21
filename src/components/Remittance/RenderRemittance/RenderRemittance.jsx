@@ -1,4 +1,5 @@
 import React from 'react';
+import RemittancesTable from '../RemittancesTable/RemittancesTable';
 
 export default function RenderRemittance({remittance}) {
     return (
@@ -7,23 +8,7 @@ export default function RenderRemittance({remittance}) {
         // for remittance keys
         <div>
             {remittance.map((r) => (
-                <ul>
-                   <li>
-                    Payor: {r.PayorName}
-                    </li>
-                    <li>
-                    Payor #: {r.PayorId}
-                    </li>
-                    <li>
-                    Invoice #: {r.InvoiceNo}
-                    </li>
-                    <li>
-                    Details: {r.Description}
-                    </li>
-                    <li>
-                    Amount (USD): {r.Amount}
-                    </li>
-                </ul> 
+                <RemittancesTable r={r}/>
             ))}
         </div>
     )
