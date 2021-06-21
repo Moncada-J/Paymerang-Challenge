@@ -6,10 +6,10 @@ export default function Sidenav () {
 return (
     <div className="sidenav">
                 <h3 className="sidenavSub"><icon class="material-icons dashboard-icon">window</icon>Dashboard</h3>
-                <Link className="sideLink" to="#services">Services</Link>
-                <Link className="sideLink" to="#clients">Clients</Link>
-                <Link className="sideLink" to="#contact">Contact</Link>
-                <Link className="sideLink" to="#contact">Search</Link>
+                <Link className="sideLink" to="#">Payees</Link>
+                <Link className="sideLink" to="#">Payments</Link>
+                <Link className="sideLink" to="#">Remittances</Link>
+                <Link className="sideLink" to="#">Search</Link>
         <div className="account-div">
             <h4 className="sidebar-accountsTitle">Recent Settlements</h4>
             <ul className="accountDiv-text">
