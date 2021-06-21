@@ -25,6 +25,7 @@
     color: #4f494b !important;
     margin: 0 auto;
     padding-bottom: 5px;
+    padding-top: 15px;
 }
 
 .secondary-link {
@@ -38,6 +39,8 @@
 .navSubtitle {
     color: #4C7287 !important;
     font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
 }
 
 .dashboard-icon {

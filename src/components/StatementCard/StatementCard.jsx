@@ -3,6 +3,7 @@ import React from 'react';
 import RenderAddress from '../Payee/RenderAddress/RenderAddress';
 import RenderRemittances from '../../components/Remittance/RenderRemittance/RenderRemittance';
 import './StatementsCard.css';
+
 export default function StatementCard ({statement}) {
     return (
         // this component holds all keys mapped out *not pun intended*, 
@@ -11,7 +12,6 @@ export default function StatementCard ({statement}) {
             {/*
              !!! Payee Info !!!
               */}
-            <hr />
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{statement.Payee.Name}</h5>

@@ -1,0 +1,67 @@
+.sidenav {
+  height: 100%;
+  width: 200px;
+  border: 0.1vmin solid rgb(223, 221, 216);
+  position: absolute;
+  z-index: 1;
+  top: 8%;
+  left: 0;
+  overflow-x: hidden;
+  padding: 40px;
+  background-color: #FFFFFF;
+}
+
+.sidenav .sideLink  {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #4C7287;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  margin-top: 30px;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.sideLink:hover {
+    background: rgba(215, 213, 214, 0.578);
+    border: 0.2vmin solid rgb(116, 48, 120);
+    padding-bottom: 10px;
+    border-radius:1vmin;
+    width: 90px;
+}
+.sidenavSub {
+    color: #801a81;
+    font-size: 20px;
+    position: relative;
+    right: 5px;
+}
+
+.dashboard-icon {
+    color: #cd267a;
+    display: inline;
+    position: relative;
+    top: 6px;
+    right: 6px;
+    
+}
+.account-div {
+    margin-top: 50px;
+    border: 0.2vmin solid rgb(203, 201, 201);
+    width: 150px;
+    padding-left: 10px;
+    position: relative;
+    right: 10px;
+
+}
+.sidebar-accountsTitle {
+    color: #801A81;
+    margin-top: 20px !important;
+}
+
+.accountDiv-text {
+    list-style: none;
+    text-align: left;
+}

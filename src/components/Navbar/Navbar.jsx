@@ -1,6 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChartLine } from "@fortawesome/free-solid-svg-icons";
 import logo from './paymeranglogo.png';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -14,9 +12,9 @@ return (
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto navbar">
+    <Nav className="mr-auto">
       <Navbar.Brand className="navSubtitle" to="/statements">
-        <FontAwesomeIcon className="dashboard-icon" icon={faChartLine} size="2x"/>My Dashboard
+        My Dashboard 
       </Navbar.Brand>
       <Nav.Link to="/new">New Statement</Nav.Link>
       <Nav.Link to="/statements">All Statements</Nav.Link>

@@ -5,7 +5,7 @@ export default function RenderAddress({statement}) {
  // this component adds the full address per payee
  // (i created a second component to keep it clean!)
     return (
-        <>
+        <div>
             <h4 className="card-str address-title">Address:</h4>
             <p className="address-body">
             {statement.Payee.Address.Address1}
@@ -17,7 +17,6 @@ export default function RenderAddress({statement}) {
             {statement.Payee.Address.Country} &nbsp;
             {statement.Payee.Address.PostalCode}
             </p>
-     
-       </>
+       </div>
     )
 }
