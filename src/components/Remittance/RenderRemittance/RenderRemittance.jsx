@@ -1,5 +1,5 @@
 import React from 'react';
-import RemittancesTable from '../RemittancesTable/RemittancesTable';
+import Accordion from '../Accordion/Accordion';
 
 export default function RenderRemittance({remittance}) {
     return (
@@ -8,7 +8,7 @@ export default function RenderRemittance({remittance}) {
         // for remittance keys
         <div>
             {remittance.map((r) => (
-                <RemittancesTable r={r}/>
+                <Accordion r={r}/>
             ))}
         </div>
     )

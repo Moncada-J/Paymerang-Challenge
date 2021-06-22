@@ -4,7 +4,6 @@
 .statement-bg {
     margin-left: 20%;
     border: 0.2vmin solid rgb(208, 201, 210);
-    text-align: center;
     display: inline-flex;
     flex-direction: row-reverse;
     margin-top: 15px;

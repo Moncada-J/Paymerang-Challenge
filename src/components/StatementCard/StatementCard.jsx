@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import RenderAddress from '../Payee/RenderAddress/RenderAddress';
-import RenderRemittances from '../../components/Remittance/RenderRemittance/RenderRemittance';
+import Accordion from '../../components/Remittance/Accordion/Accordion';
 import './StatementsCard.css';
 
 export default function StatementCard ({statement, index}) {
@@ -15,7 +15,8 @@ return (
                 <h6 class="card-subtitle mb-2 text-muted">Att: {statement.Payee.Attention}</h6>
                 <h5 class="card-subtitle mb-2 text-muted">
                     <icon class="material-icons date-icon">today</icon> {statement.Payee.SubmissionDate}</h5>
-                <hr className="card-line" />
+                <Accordion r={statement.Remittance}/>
+                <hr />
                 <p class="card-text">
                 <span class="card-subtitle mb-2 text-muted">
                     <icon class="material-icons payment-icon">payment</icon> {statement.Payment.PAN}
