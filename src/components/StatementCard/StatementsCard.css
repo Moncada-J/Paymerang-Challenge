@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Prata&family=Rubik:wght@500&display=swap');
 
 .statement-bg {
-    margin-left: 20%;
+    margin-left: 33%;
     border: 0.2vmin solid rgb(208, 201, 210);
     display: inline-flex;
     flex-direction: row-reverse;
@@ -11,7 +11,8 @@
 
 
 .statement-card {
-    min-width: 350px;
+    min-width: 700px;
+    max-width: 650px;
     display: inline;
 }
 
@@ -35,4 +36,20 @@
     position: relative;
     top: 5px;
     color: #575457;
+}
+
+.accord-str {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.data-table {
+    border: 0.2vmin solid rgb(48, 47, 48);
+    border-radius: 1vmin;
+    color: rgb(38, 37, 37);
+}
+
+.table-header {
+    background-color: #567d93;
+    color: white;
 }
