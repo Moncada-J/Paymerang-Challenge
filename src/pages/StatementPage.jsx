@@ -4,8 +4,6 @@ import './StatementPage.css';
 
  export default function StatementPage() {
     return (
-        <main className="statementPage-body">
-           <RenderStatements />
-        </main>
+          <RenderStatements />
     )
 }

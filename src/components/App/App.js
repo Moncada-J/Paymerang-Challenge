@@ -10,16 +10,15 @@ function App() {
     <div className="App">
       <Navbar />
       <Sidebar />
-       <h1 className="title">Unleash the Power of 
-      <br /> Electronic Payments</h1> 
+      <h1 className="title"> » Statement Library</h1>
       <Switch>
         <Route exact path="/statements">
           <StatementPage />
         </Route>
-        <Redirect to="/statements" /> 
+        <Redirect to="/statements" />
       </Switch>
     </div>
-  )
+  );
 }
 
 export default App;

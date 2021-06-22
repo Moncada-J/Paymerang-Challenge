@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Prata&family=Rubik:wght@500&display=swap');
+
+.statement-bg {
+    margin-left: 20%;
+    border: 0.2vmin solid rgb(208, 201, 210);
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+} 
+
+
+.statement-card {
+    min-width: 350px;
+    display: inline;
+}
+
+.payee-name-title {
+    font-family: 'Cantarell', sans-serif;
+    color: #741876;
+}
+
+.italic {
+    color: rgb(69, 66, 68)
+}
+
+.str-payment {
+    font-family: 'Rubik', sans-serif;
+    color: #CD267A;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.payment-icon, .date-icon {
+    position: relative;
+    top: 5px;
+    color: #575457;
+}
