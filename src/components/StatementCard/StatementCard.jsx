@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 import RenderAddress from '../Payee/RenderAddress/RenderAddress';
 import RenderRemittance from '../../components/Remittance/RenderRemittance/RenderRemittance';
 import './StatementsCard.css';
 
 export default function StatementCard ({statement, index}) {
+const [showRemittance, setShowRemittance] = useState(false);
+
 return (
         // this component holds all keys mapped out *not pun intended*, 
         // and design structure for the /statements route - shown on app.js
@@ -12,19 +14,25 @@ return (
             <div class="statement-card">
                 <div class="card-body">
                 <h2 class="card-title payee-name-title"><i className="italic">RE:</i> {statement.Payee.Name}</h2>
-                <h6 class="card-subtitle mb-2 text-muted">Att: {statement.Payee.Attention}</h6>
-                <h5 class="card-subtitle mb-2 text-muted">
-                    <icon class="material-icons date-icon">today</icon> {statement.Payee.SubmissionDate}</h5>
-                <RenderRemittance remittance={statement.Remittance}/>
+                <h5 class="card-subtitle mb-2 text-muted payee-sub"><icon class="material-icons payee-icon">person</icon> 
+                {statement.Payee.Attention} <strong>/</strong>
+                <icon class="material-icons date-icon">today</icon> {statement.Payee.SubmissionDate}</h5>
                 <hr />
                 <p class="card-text">
-                <span class="card-subtitle mb-2 text-muted">
-                    <icon class="material-icons payment-icon">payment</icon> {statement.Payment.PAN}
-                    <br />
+                <span class="card-subtitle mb-2 text-muted payment-sub">
+                    <icon class="material-icons payment-icon">payment</icon> {statement.Payment.PAN} •
                     <strong className="str-payment">CVV</strong> {statement.Payment.CVV} •
                      <strong className="str-payment">EXP</strong> {statement.Payment.Exp}
                 </span>
                 </p>
+                <hr />
+                <button onClick={() => setShowRemittance(!showRemittance)} type="button" class="btn btn-outline-secondary toggle-btn">
+                    {showRemittance ? "Close Details" : "View Remittance"}
+                </button>
+                {showRemittance && <RenderRemittance remittance={statement.Remittance} />}
+                <button onClick={() => setShowRemittance(!showRemittance)} type="button" class="btn btn-outline-secondary toggle-btn">
+                    {showRemittance ? "Close Details" : "Contact Payee"}
+                </button>
             </div>
         </div>
     </div>

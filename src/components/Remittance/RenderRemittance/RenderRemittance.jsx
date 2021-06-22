@@ -1,8 +1,9 @@
-import React from 'react';
-import Accordion from '../Accordion/Accordion';
+import React, { useState } from 'react';
 
 export default function RenderRemittance({remittance}) {
+
     
+
     return (
         // this component maps out the 
         // array nested inside the json data
