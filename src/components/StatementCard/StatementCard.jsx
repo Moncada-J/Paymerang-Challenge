@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
-import RenderAddress from '../Payee/RenderAddress/RenderAddress';
 import RenderRemittance from '../Remittance/RenderRemittance/RenderRemittance';
 import ContactDetails from '../Payee/ContactDetails/ContactDetails';
 import './StatementsCard.css';
 
 export default function StatementCard ({statement, index}) {
 const [showRemittance, setShowRemittance] = useState(false);
-const [showContactDetails, setShowContactDetails] = useState(false);
 
 return (
         // this component holds all keys mapped out *not pun intended*, 
@@ -19,6 +17,7 @@ return (
                 <h5 class="card-subtitle mb-2 text-muted payee-sub"><icon class="material-icons payee-icon">person</icon> 
                 {statement.Payee.Attention} <strong>/</strong>
                 <icon class="material-icons date-icon">today</icon> {statement.Payee.SubmissionDate}</h5>
+                <ContactDetails statement={statement} /> 
                 <hr />
                 <p class="card-text">
                 <span class="card-subtitle mb-2 text-muted payment-sub">
@@ -32,13 +31,7 @@ return (
                 <button onClick={() => setShowRemittance(!showRemittance)} type="button" class="btn btn-outline-secondary toggle-btn">
                     {showRemittance ? "Close Details" : "View Remittance"}
                 </button>
-                {showRemittance && <RenderRemittance remittance={statement.Remittance} />}
-
-                {/* toggle button for payee contact details */}
-                <button onClick={() => setShowContactDetails(!showContactDetails)} type="button" class="btn btn-outline-secondary toggle-btn">
-                    {showRemittance ? "Close Details" : "Contact Payee"}
-                </button>
-                {showContactDetails && <ContactDetails statement={statement.Payee} /> }
+                {showRemittance && <RenderRemittance remittance={statement.Remittance} />}            
             </div>
         </div>
     </div>
