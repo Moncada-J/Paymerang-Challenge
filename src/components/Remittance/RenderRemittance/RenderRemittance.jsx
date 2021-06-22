@@ -10,7 +10,7 @@ export default function RenderRemittance({remittance}) {
         // for remittance keys
     <div>
 
-        <table class="table data-table">
+        <table className="table data-table">
             <thead className="table-header">
                 <tr>
                 <th scope="col">Payor Name</th>

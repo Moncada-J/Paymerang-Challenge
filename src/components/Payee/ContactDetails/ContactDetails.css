@@ -1,0 +1,23 @@
+.contact-accordion {
+    width:  275px;
+    margin-top: 20px;
+    margin-left: 150px !important;
+    text-align: center;
+}
+.accordion-header {
+    font-size: 2vmin;
+   margin-left: 65px;
+   color: #5D5C5E;
+}
+
+.accordion-icon {
+    margin-right:10px;
+    color: #CD267A;
+}
+.accordion-button:not(.collapsed) {
+    color: #731876;
+}
+
+.accordion-button {
+     font-size: 2.5vmin;
+}

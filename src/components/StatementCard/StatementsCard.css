@@ -26,7 +26,7 @@
 .payee-sub, .payment-sub {
     display: inline !important;
     font-family: 'Rubik', sans-serif;
-    margin-left: 200px;
+    margin-left: 160px;
 }
 
 .payee-sub strong {
@@ -69,7 +69,7 @@
 }
 
 .toggle-btn {
-    margin-left: 120px;
+    margin-left: 275px;
     color: rgb(48, 47, 48) !important;
     font-size: 11px;
     width: 180px;

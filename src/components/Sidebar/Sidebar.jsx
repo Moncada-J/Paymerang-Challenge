@@ -5,15 +5,15 @@ import './Sidebar.css';
 export default function Sidenav () {
 return (
     <div className="sidenav">
-                <h3 className="sidenavSub"><icon class="material-icons dashboard-icon">window</icon>Dashboard</h3>
+                <h3 className="sidenavSub"><icon className="material-icons dashboard-icon">window</icon>Dashboard</h3>
                 <Link className="sideLink" to="#">
-                <icon class="material-icons payees-icon">person</icon>Payees</Link>
+                <icon className="material-icons payees-icon">person</icon>Payees</Link>
                 <Link className="sideLink" to="#">
-                <icon class="material-icons payments-icon">payments</icon>Payments</Link>
+                <icon className="material-icons payments-icon">payments</icon>Payments</Link>
                 <Link className="sideLink" to="#">
-                <icon class="material-icons remittances-icon">contactless</icon>Remittances</Link>
+                <icon className="material-icons remittances-icon">contactless</icon>Remittances</Link>
                 <Link className="searchLink" to="#">
-                <icon class="material-icons search-icon">search</icon>Search</Link>
+                <icon className="material-icons search-icon">search</icon>Search</Link>
         <div className="account-div">
             <h4 className="sidebar-accountsTitle">Recent Settlements</h4>
             <ul className="accountDiv-text">
