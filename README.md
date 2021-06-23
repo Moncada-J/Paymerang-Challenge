@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Paymerang Technical Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Made with 💛  by `Jessalynn Moncada`
+#### Finished Product => ________
 
-## Available Scripts
+## Test Guidelines
 
-In the project directory, you can run:
+Create a webpage that shows each Payee/Payment/Remittance object in a paged interface. Everything else is up to you - overall design, technology used, styling, amount of time spent on the test, etc.
 
-### `npm start`
+## Overview of _**My Solution**_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Functionality
+    * All data has been mapped out and rendered accordingly
+    * Useage of React State, Hooks
+    * Mapping, Props used with corresponding parent/children components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Design & Architecture
+    * A minimal and interfaced layout
+    * Features two menus: vertical and horizontal navigation designs
+    * Cards used to better demonstrate the mapping 
+    * Payee details are disclosed using an accordion
+    * A table is used for full remittance details, controlled by a hide/show toggle button
+    * Provides design for a _future_ search bar feature
 
-### `npm test`
+* Other Details
+    * Paymerang's brand was used throughout the whole SPA. Including: colors, the logo and overall page UI design.
+    * This application is designed for future enhancements and to include a database connection, such as MongoDB or AWS. Includes a server and main routing set up in 'App.js'.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Time Spent
+*20-25 hours 
+    
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Back End
+`Node.js`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Front End
+`React.js`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Other
+`HTML`
+`CSS`
+`Bootstrap`
+`MDBootstrap`
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
