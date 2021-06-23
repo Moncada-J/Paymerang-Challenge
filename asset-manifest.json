@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Paymerang-Challenge/static/css/main.3ddf28b9.chunk.css",
+    "main.js": "/Paymerang-Challenge/static/js/main.ad703bd8.chunk.js",
+    "main.js.map": "/Paymerang-Challenge/static/js/main.ad703bd8.chunk.js.map",
+    "runtime-main.js": "/Paymerang-Challenge/static/js/runtime-main.7f34ee08.js",
+    "runtime-main.js.map": "/Paymerang-Challenge/static/js/runtime-main.7f34ee08.js.map",
+    "static/css/2.bf0567dc.chunk.css": "/Paymerang-Challenge/static/css/2.bf0567dc.chunk.css",
+    "static/js/2.4ca18d16.chunk.js": "/Paymerang-Challenge/static/js/2.4ca18d16.chunk.js",
+    "static/js/2.4ca18d16.chunk.js.map": "/Paymerang-Challenge/static/js/2.4ca18d16.chunk.js.map",
+    "index.html": "/Paymerang-Challenge/index.html",
+    "static/css/2.bf0567dc.chunk.css.map": "/Paymerang-Challenge/static/css/2.bf0567dc.chunk.css.map",
+    "static/css/main.3ddf28b9.chunk.css.map": "/Paymerang-Challenge/static/css/main.3ddf28b9.chunk.css.map",
+    "static/js/2.4ca18d16.chunk.js.LICENSE.txt": "/Paymerang-Challenge/static/js/2.4ca18d16.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/Paymerang-Challenge/static/media/arrow_right.0897f985.svg",
+    "static/media/semantic.min.css": "/Paymerang-Challenge/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/paymerang.2ab16675.png": "/Paymerang-Challenge/static/media/paymerang.2ab16675.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f34ee08.js",
+    "static/css/2.bf0567dc.chunk.css",
+    "static/js/2.4ca18d16.chunk.js",
+    "static/css/main.3ddf28b9.chunk.css",
+    "static/js/main.ad703bd8.chunk.js"
+  ]
+}
