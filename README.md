@@ -27,7 +27,7 @@ Create a webpage that shows each Payee/Payment/Remittance object in a paged inte
     * This application is designed for future enhancements and to include a database connection, such as MongoDB or AWS. Includes a server and main routing set up in 'App.js'.
 
 ## Time Spent
-*20-25 hours 
+20-25 hours 
     
 
 ## Technologies Used
