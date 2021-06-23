@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import Navbar from '../NavBar/NavBar';
-import StatementPage from '../../pages/StatementPage';
-import Sidebar from '../../components/Sidebar/Sidebar';
+import Navbar from '../components/NavBar/NavBar';
+import StatementPage from '../pages/StatementPage';
+import Sidebar from '../components/Sidebar/Sidebar';
 import './App.css';
 
 function App() {

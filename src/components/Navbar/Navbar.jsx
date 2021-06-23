@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './paymeranglogo.png';
+import logo from './Logo/paymerang.png';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './NavBar.css';
@@ -8,7 +8,7 @@ function NavBar() {
 return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="/statements">
-        <img className="logo" src={logo} alt="paymeranglogo.png" />
+        <img className="logo" src={logo} alt="paymerang.png" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

@@ -3,6 +3,7 @@ import RenderAddress from '../RenderAddress/RenderAddress';
 import './ContactDetails.css';
 
 export default function ContactDetails ({statement}) {
+    // this component handles the hidden payee details which can be collapsed
     return (
         <div className="accordion-header">
             <div className="accordion accordion-flush contact-accordion" id="accordionFlushExample">

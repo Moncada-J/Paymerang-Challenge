@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function RenderRemittance({remittance}) {
-
-    
-
-    return (
-        // this component maps out the 
-        // array nested inside the json data
-        // for remittance keys
+    // this component handles the nested Remittance array within the json object data
+    // useful for displaying remittance keys per statement within a data table that
+    // can be controlled by a toggle button! 
+return (
     <div>
-
         <table className="table data-table">
             <thead className="table-header">
                 <tr>
@@ -20,10 +16,10 @@ export default function RenderRemittance({remittance}) {
                 <th scope="col">Transaction <br /> Details</th>
                 </tr>
             </thead>
-        {remittance.map((remittance, index) => (
-            <tbody style={{
-        backgroundColor: index % 2 ?  "#dcdfe2" : "#ffffff", color: index % 2 ? "#426d84" : "#575457"
-      }}>
+                {remittance.map((remittance, index) => (
+                    <tbody style={{
+                backgroundColor: index % 2 ?  "#dcdfe2" : "#ffffff", color: index % 2 ? "#426d84" : "#575457"
+            }}>
                 <tr>
                 <th scope="row">{remittance.PayorName}</th>
                 <td>{remittance.PayorId}</td>
@@ -34,7 +30,6 @@ export default function RenderRemittance({remittance}) {
             </tbody>
         ))}
         </table>
-      
-</div>
-    )
+    </div>
+    );
 }

@@ -4,6 +4,8 @@ import './Sidebar.css';
 
 export default function Sidenav () {
 return (
+    // this component leaves room for future development -
+    // especially with a database and SPA future page routing 
     <div className="sidenav">
                 <h3 className="sidenavSub"><icon className="material-icons dashboard-icon">window</icon>Dashboard</h3>
                 <Link className="sideLink" to="#">
@@ -16,6 +18,7 @@ return (
                 <icon className="material-icons search-icon">search</icon>Search</Link>
         <div className="account-div">
             <h4 className="sidebar-accountsTitle">Recent Settlements</h4>
+            {/* hard coded data, leaving room for future feature development */}
             <ul className="accountDiv-text">
                 <li>
                     $30,718.78

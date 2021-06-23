@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-// import { Link } from 'react-router-dom';
 import RenderRemittance from '../Remittance/RenderRemittance/RenderRemittance';
 import ContactDetails from '../Payee/ContactDetails/ContactDetails';
-import './StatementsCard.css';
+import './Statements.css';
 
-export default function StatementCard ({statement, index}) {
+export default function StatementCard ({ statement }) {
 const [showRemittance, setShowRemittance] = useState(false);
+// this is the main component, which holds all the object data and is the first level child
+// component and passes down the 'statement' prop to other children components!
 
 return (
         <div className="statement-bg">
@@ -25,7 +26,7 @@ return (
                 </span>
                 </p>
                 <hr />
-                {/* toggle button for remittance details */}
+                {/* toggle button for remittance table details */}
                 <button onClick={() => setShowRemittance(!showRemittance)} type="button" class="btn btn-outline-secondary toggle-btn">
                     {showRemittance ? "Close Details" : "View Remittance"}
                 </button>

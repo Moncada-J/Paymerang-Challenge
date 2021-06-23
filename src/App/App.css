@@ -5,10 +5,6 @@
   font-size: 44px;
 }
 
-.card-str {
-    color: #8A3E93;
-}
-
 .main {
   margin-left: 200px; /* Same as the width of the sidenav */
   font-size: 20px; /* Increased text to enable scrolling */
